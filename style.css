@@ -307,8 +307,6 @@ a {
 
 .block2 {
   height: 36rem;
-  /* background-color: hsl(219, 30%, 18%); */
-  /* background-image: url(images/backgr.png); */
   background-image: url(images/background_orange1.jpg) ;
   background-position: center;
   background-size: cover;
@@ -408,18 +406,6 @@ a {
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
-
-  /* .my_pic {
-    max-width: 12%;
-  }
-
-  .about_img {
-    max-width: 9%;
-  }
-
-  .about_img2 {
-    max-width: 10%;
-  } */
 }
 
 @media (max-width: 1024px) {
@@ -727,8 +713,6 @@ a {
 
 .block6 {
   height: 40rem;
-  /* background-color: hsl(219, 30%, 18%); */
-  /* background-image: url(images/background_figures.jpg); */
   background-image: url(images/background_violet.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -788,12 +772,7 @@ a {
 /* FOOTER */
 .footer {
   color: #fff;
-  /* background-color: #e98b18; */
   background-color: hsl(217, 28%, 15%);
-  /* background-image: url(images/background_shadow.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   padding: 1rem 0 3rem;
   text-align: center;
 }
