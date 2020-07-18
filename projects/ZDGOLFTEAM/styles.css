@@ -139,71 +139,15 @@ p, a, button {
   margin: 0 auto;
 }
 
-/* .row_1 {
-  margin-bottom: 1rem;
-} */
-/* .main_photo {
-  width: 50rem;
-  height: auto;
-  width: 100%;
-  max-width: 30rem;
-  margin: 0 auto;
-  background: url(images/main_img.jpg) no-repeat;
-  background-position: center;
-  background-size: contain;
-} */
-/* .main_phh {
-  height: auto;
-  width: 100%;
-  max-width: 45rem;
-} */
+
 .title_coaches {
   height: auto;
   width: 100%;
   max-width: 60rem;
 }
 
-/* .photo_right_1 {
-  height: 17rem;
-  background: url(images/gallery2.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 1rem;
-}
-
-.photo_right_2 {
-  height: 12rem;
-  background: url(images/benefit2.jpg) no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.photo_bottom_1 {
-  height: 13rem;
-  background: url(images/gallery1.jpg) no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.photo_bottom_2 {
-  height: 13rem;
-  background: url(images/benefit3.JPG) no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.photo_bottom_3 {
-  height: 13rem;
-  background: url(images/group_photo.jpg) no-repeat;
-  background-position: center;
-  background-size: cover
-} */
-/* .img-fluid {
-  height: auto;
-  width: 65%;
-} */
 .title_h4 {
-  margin: 0 10% 1rem;
+  margin-bottom: 1rem;
 }
 
 .title_par {
@@ -211,15 +155,12 @@ p, a, button {
 }
 
 /* METHOD */
-.container_method {
-  padding: 1% 0;
-}
 
 .method {
-  width: 50%;
+  /* width: 50%;
   height: auto;
-  margin: 0 auto;
-  padding: 1% 1rem;
+  margin: 0 auto; */
+  padding: 2rem 3rem;
   -webkit-border-radius: 12;
   -moz-border-radius: 12;
   border-radius: 12px;
@@ -231,19 +172,21 @@ p, a, button {
 
 @media (max-width: 1200px) {
   .method {
-    width: 60%
+    /* width: 60% */
+    padding: 1rem 2rem;
   }
 }
 
 @media (max-width: 992px) {
   .method {
-    width: 70%
+    padding: 1rem;
+    /* width: 70% */
   }
 }
 
 @media (max-width: 767px) {
   .method {
-    width: 95%
+    /* width: 95% */
   }
 }
 
@@ -256,12 +199,6 @@ p, a, button {
   font-size: .85rem
 }
 
-/* .coach_col {
-  min-width: 18rem;
-} */
-#coaches .card {
-  /* max-width: 70%; */
-}
 
 .no_padding_ul {
   padding-inline-start: 15px;
@@ -275,39 +212,8 @@ p, a, button {
   margin: 0 auto;
 }
 
-.coach1_image {
-  /* background: url(images/coach1.png) no-repeat;
-  background-position: center;
-  background-size: cover */
-  /* height: auto;
-  width: 100%;
-  max-width: 20rem; */
-  /* max-width: 45rem; */
-}
 
-.coach2_image {
-  /* background: url(images/coach2.png) no-repeat;
-  background-position: center;
-  background-size: cover */
-  /* height: auto;
-  width: 100%;
-  max-width: 20rem; */
-}
 
-.coach3_image {
-  /* background: url(images/coach3.jpg) no-repeat;
-  background-position: center;
-  background-size: cover */
-  /* height: auto;
-  width: 100%;
-  max-width: 20rem; */
-}
-
-/* .coach4_image {
-  background: url(images/coach4.png) no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
 .card-subtitle:after {
   content: "";
   display: block;
@@ -358,55 +264,11 @@ p, a, button {
   max-width: 50rem
 }
 
-/* .galleryPhoto1 {
-  height: 30rem;
-  background: url(images/gallery1.jpg)no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.galleryPhoto2 {
-  height: 30rem;
-  background: url(images/gallery2.jpg)no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.galleryPhoto3 {
-  height: 30rem;
-  background: url(images/gallery3.jpg)no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.galleryPhoto4 {
-  height: 30rem;
-  background: url(images/gallery4.jpg)no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.galleryPhoto5 {
-  height: 30rem;
-  background: url(images/gallery5.jpg)no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.galleryPhoto6 {
-  height: 30rem;
-  background: url(images/gallery6.jpg)no-repeat;
-  background-position: center;
-  background-size: cover
-}
-
-.galleryPhoto7 {
-  height: 30rem;
-  background: url(images/gallery7.jpg)no-repeat;
-  background-position: center;
-  background-size: cover
-} */
 /* OUR BASES  */
+.container_bases {
+  padding: 2% 11%;
+}
+
 #ourBases .card {
   color: #000;
 }
@@ -415,11 +277,16 @@ p, a, button {
   padding: 1.25rem 3rem;
 }
 
+@media (max-width: 768px) {
+  #ourBases .card-body {
+    padding: 1.25rem 1rem;
+  }
+  .container_bases {
+    padding: 2% 5%;
+  }
+}
+
 .base_pic {
-  /* width: 28rem;
-  height: 21rem;
-  margin: 2rem 2rem;
-  float: left; */
   border: 1px solid #007944;
   height: auto;
   width: 100%;
@@ -430,41 +297,10 @@ p, a, button {
   margin: 1.5rem 0 0;
 }
 
-.base1 {
-  /* background: url(images/base1.jpg) no-repeat;
-  background-position: center;
-  background-size: cover */
-  /* height: auto;
-  width: 100%;
-  max-width: 30rem; */
+.base_text p {
+  text-align: justify;
 }
 
-.base2 {
-  /* background: url(images/base2.jpg) no-repeat;
-  background-position: center;
-  background-size: cover */
-  /* height: auto;
-  width: 100%;
-  max-width: 30rem; */
-}
-
-.base3 {
-  /* background: url(images/base3.jpg) no-repeat;
-  background-position: center;
-  background-size: cover */
-}
-
-.base4 {
-  /* background: url(images/base4.jpg) no-repeat;
-  background-position: center;
-  background-size: cover */
-}
-
-.base5 {
-  /* background: url(images/base5.jpg) no-repeat;
-  background-position: center;
-  background-size: cover */
-}
 
 /* GADGETS */
 #gadgets.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -489,12 +325,7 @@ p, a, button {
 }
 
 /* EL PLANTIO CAMP */
-/* #elEplantioCamp .card {
-  height: 22rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center
-} */
+
 .cardElPlantio {
   border: 1px solid #007944;
   height: auto;
