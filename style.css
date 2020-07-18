@@ -304,7 +304,7 @@ a {
 
 .block2 {
   height: 36rem;
-  background-image: url(images/tinified/background_orange1.jpg) ;
+  background-image: url(images/background_orange1.jpg) ;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,7 +335,7 @@ a {
   height: 34rem;
   padding: 1.5rem 4rem;
   background-color: hsl(217, 28%, 15%);
-  background-image: url(images/tinified/bg_footer.png);
+  background-image: url(images/bg_footer.png);
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -710,7 +710,7 @@ a {
 
 .block6 {
   height: 40rem;
-  background-image: url(images/tinified/background_violet.jpg);
+  background-image: url(images/background_violet.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
