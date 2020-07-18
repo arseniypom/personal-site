@@ -28,41 +28,41 @@ p, a, button {
 
 /* BACKGROUNDS */
 .white_pattern_bg {
-  background: url(images/bg_ex.jpg);
+  background: url(build/images/bg_ex.jpg);
   /* background-position: center; */
   /* background-size: cover */
 }
 
 .green_bg {
-  background: url(images/grass_bg.png);
+  background: url(build/images/grass_bg.png);
   background-position: center;
   background-size: cover;
   color: #fff
 }
 
 .bunker_bg {
-  background: url(images/bunker_bg.jpg);
+  background: url(build/images/bunker_bg.jpg);
   background-position: center;
   background-size: cover;
   color: #fff
 }
 
 .main_bg {
-  background: url(images/main_bg2.jpg);
+  background: url(build/images/main_bg2.jpg);
   background-position: center;
   background-size: cover;
   color: #fff
 }
 
 .method_bg {
-  background: url(images/method_bg1.jpg);
+  background: url(build/images/method_bg1.jpg);
   background-position: center;
   background-size: cover;
   /* color: #fff */
 }
 
 .transparent_little_logo {
-  background: url(images/ts_logo1.png) no-repeat;
+  background: url(build/images/ts_logo1.png) no-repeat;
   background-position: center;
   background-size: contain;
 }
@@ -335,15 +335,15 @@ p, a, button {
 }
 
 /* .elCard1 {
-  background: url(images/ElPlantio1.png);
+  background: url(build/images/ElPlantio1.png);
 }
 
 .elCard2 {
-  background: url(images/ElPlantio2.png);
+  background: url(build/images/ElPlantio2.png);
 }
 
 .elCard3 {
-  background: url(images/ElPlantio3.jpg);
+  background: url(build/images/ElPlantio3.jpg);
 } */
 .imgElPlantio {
   margin: 0 auto;
@@ -364,15 +364,15 @@ p, a, button {
 }
 
 .linksCard1 {
-  background: url(images/Links1.jpg);
+  background: url(build/images/Links1.jpg);
 }
 
 .linksCard2 {
-  background: url(images/Links2.png);
+  background: url(build/images/Links2.png);
 }
 
 .linksCard3 {
-  background: url(images/Links3.png);
+  background: url(build/images/Links3.png);
 }
 
 /* BENEFITS */
@@ -404,31 +404,31 @@ p, a, button {
 /* .benefit1 {
   height: 33rem;
   width: 28rem;
-  background: url(images/benefit1.jpg)
+  background: url(build/images/benefit1.jpg)
 }
 
 .benefit2 {
   height: 30rem;
   width: 45rem;
-  background: url(images/benefit2.jpg)
+  background: url(build/images/benefit2.jpg)
 }
 
 .benefit3 {
   height: 30rem;
   width: 40rem;
-  background: url(images/benefit3.jpg)
+  background: url(build/images/benefit3.jpg)
 }
 
 .benefit4 {
   height: 37rem;
   width: 30rem;
-  background: url(images/benefit4.png)
+  background: url(build/images/benefit4.png)
 }
 
 .benefit5 {
   height: 30rem;
   width: 30rem;
-  background: url(images/benefit5.jpg)
+  background: url(build/images/benefit5.jpg)
 } */
 /* IG POSTS */
 /* ENROLL FORM */
